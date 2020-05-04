@@ -128,6 +128,12 @@
               "devServerTarget": "todo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://hanhan9449.github.io/todo"
+          }
         }
       }
     }
