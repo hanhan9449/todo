@@ -2,12 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SetupComponent } from './setup.component';
 
-
-
 @NgModule({
   declarations: [SetupComponent],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
 })
-export class SetupModule { }
+export class SetupModule {}
