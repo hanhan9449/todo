@@ -132,7 +132,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/todo",
+            "baseHref": "https://hanhan9449.github.io/todo",
             "name": "hanhan9449",
             "email": "haannn@qq.com"
           }
