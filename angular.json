@@ -130,12 +130,8 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "https://hanhan9449.github.io/todo",
-            "name": "hanhan9449",
-            "email": "haannn@qq.com"
-          }
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
