@@ -19,4 +19,4 @@ jobs:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN}}
         run: |
           npm install
-          npx ng deploy
+          npx ng deploy --token $FIREBASE_TOKEN
