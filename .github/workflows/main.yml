@@ -1,5 +1,4 @@
-name: Deploy to GitHub Pages via angular-cli-ghpages
-
+name: Deploy to firebase host
 on: [push]
 
 jobs:
